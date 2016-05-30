@@ -1,7 +1,7 @@
 header{
   width: 100%;
   height: 862px;
-  padding-top: 400px;
+  padding-top: 330px;
   position: fixed;
   top: 0;
   background:  #f07057;
@@ -9,14 +9,23 @@ header{
 }
 p{
   font-size: 15px;
+  color: black;
+  
 }
 body{
   font-family: "Arvo", serif;
   padding-top: 862px;
 
   position: relative;
-
 }
+
+.border {
+  border-style:solid;
+  border-color:#000000;
+  margin: 100px 700px 0px 700px;
+  padding: 20px;
+}
+
 .navbar{
   font-family: "Arvo", serif;
   position: relative;
@@ -27,7 +36,7 @@ body{
   z-index: 100;
   position: relative;
   background-color: white;
-  padding: 5px 100px 5px;
+  padding: 5px 190px 5px;
 }
 .image {
    position: relative;
