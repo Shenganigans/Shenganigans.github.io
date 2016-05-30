@@ -30,7 +30,7 @@ $(document).ready(function(){
       }, 800, function(){
 
         // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
+
       });
     } // End if
   });
@@ -40,7 +40,10 @@ $(document).ready(function(){
   <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css" />
 </head>
-<header>
+<p id="home">
+
+</p>
+<header >
       <h1 class="text-center">Welcome to Shenganigans</h1>
       <p class="text-center">
         <i><b>Personal Website for Sheng An Zhang</b></i>
@@ -71,7 +74,7 @@ $(document).ready(function(){
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class=""><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li class=""><a href="#home">Home <span class="sr-only">(current)</span></a></li>
           <li><a href="#about">About</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
